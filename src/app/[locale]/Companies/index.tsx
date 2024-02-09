@@ -29,7 +29,32 @@ const Companies = () => {
         As featured in the following companies
       </p>
       <div className="flex items-center justify-center flex-wrap gap-11 mt-12 md:flex-nowrap">
-        {renderCompanies}
+        {/*renderCompanies*/}
+        <Image
+            className=""
+            src={facebook}
+            alt="Photocompany"
+        />
+        <Image
+            className=""
+            src={airbnb}
+            alt="Photocompany"
+        />
+        <Image
+            className=""
+            src={tinder}
+            alt="Photocompany"
+        />
+        <Image
+            className=""
+            src={microsoft}
+            alt="Photocompany"
+        />
+        <Image
+            className=""
+            src={hub}
+            alt="Photocompany"
+        />
       </div>
     </section>
   );
