@@ -30,29 +30,29 @@ export const oauthProvidersClerk = [
 }[];
 
 export const appts = {
-  name: "Relivator",
+  name: "H&T AI TECH",
   debug: false,
   social: networks({
-    youtube: "@bleverse_com",
-    discord: "Pb8uKbwpsJ",
-    facebook: "groups/bleverse",
-    twitter: "blefnk",
-    github: "blefnk",
+    youtube: "HarryNguyen2662",
+    discord: "HarryNguyen2662",
+    facebook: "HarryNguyen2662",
+    twitter: "HarryNguyen2662",
+    github: "HarryNguyen2662",
   }),
 };
 
 export default appts;
 
 const links = {
-  twitter: "https://x.com/blefnk",
-  github: "https://github.com/blefnk/relivator",
-  githubAccount: "https://github.com/blefnk",
-  discord: "https://discord.gg/Pb8uKbwpsJ",
-  facebook: "https://facebook.com/groups/bleverse",
+  twitter: "https://github.com/HarryNguyen2662",
+  github: "https://github.com/HarryNguyen2662",
+  githubAccount: "https://github.com/HarryNguyen2662",
+  discord: "https://github.com/HarryNguyen2662",
+  facebook: "https://github.com/HarryNguyen2662",
 };
 
 export const contactConfig = {
-  email: "blefnk@gmail.com",
+  email: "toantoan123toantoan@gmail.com",
 };
 
 export const REPOSITORY_OWNER = "blefnk";
@@ -67,7 +67,7 @@ export const BASE_URL =
   process.env.NODE_ENV === "production" ? baseUrl : "http://localhost:3000";
 export const BRAND_NAME = "Relivator";
 export const BRAND_DESCRIPTION =
-  "Next.js 14 free store and dashboard template. It helps you build great eCommerce and SaaS apps faster than ever. Get it now!";
+  "At H&T AI TECH, we leverage cutting-edge AI techniques like object detection, video content analysis, image recognition, and predictive maintenance to develop innovative solutions that extract insights from visual data and keep critical systems running smoothly.";
 
 export const OWNER_ROLE = "owner";
 export const ADMIN_ROLE = "admin";
@@ -81,19 +81,19 @@ export const settings = {
 };
 
 export const siteConfig = {
-  name: "Relivator",
-  shortName: "Relivator",
-  author: "Nazarii Korniienko",
+  name: "H&T AI Tech",
+  shortName: "H&T AI Tech",
+  author: "Harry Nguyen",
   description:
-    "NextJS 14 free starter: store, landing, dashboard. It helps you build great eCommerce and SaaS apps faster than ever. Get it!",
+    "At H&T AI TECH, we leverage cutting-edge AI techniques like object detection, video content analysis, image recognition, and predictive maintenance to develop innovative solutions that extract insights from visual data and keep critical systems running smoothly.",
   company: {
-    name: "Nazarii Korniienko",
-    link: "https://github.com/blefnk/relivator",
-    email: "blefnk@gmail.com",
-    twitter: "@blefnk",
+    name: "H&T AI TECH",
+    link: "https://github.com/HarryNguyen2662",
+    email: "toantoan123toantoan@gmail.com",
+    twitter: "https://github.com/HarryNguyen2662",
   },
   handles: {
-    twitter: "@blefnk",
+    twitter: "https://github.com/HarryNguyen2662",
   },
   keywords: [
     "App Router",
@@ -127,23 +127,23 @@ export const siteConfig = {
   ogImage: `${env.NEXT_PUBLIC_APP_URL}/og-image.png`,
   mainNav: [
     {
-      title: "Lobby",
+      title: "Industry",
       items: [
         {
           title: "Products",
-          href: "/products",
+          href: "",
           description: "All the products we have to offer.",
           items: [],
         },
         {
           title: "Build a Look",
-          href: "/custom/clothing",
+          href: "",
           description: "Build your own custom clothes.",
           items: [],
         },
         {
           title: "Blog",
-          href: "/blog",
+          href: "",
           description: "Read our latest blog posts.",
           items: [],
         },
@@ -154,13 +154,13 @@ export const siteConfig = {
       items: [
         {
           title: "All",
-          href: `/categories/${slugify(category.title)}`,
+          href: "/",
           description: `All ${category.title}.`,
           items: [],
         },
         ...category.subcategories.map((subcategory) => ({
           title: subcategory.title,
-          href: `/categories/${slugify(category.title)}/${subcategory.slug}`,
+          href: "/",
           description: subcategory.description,
           items: [],
         })),
@@ -170,26 +170,26 @@ export const siteConfig = {
   links,
   footerNav: [
     {
-      title: "Bleverse",
+      title: "H&T AI Tech",
       items: [
         {
           title: "Community",
-          href: "https://bleverse.com",
+          href: "",
           external: true,
         },
         {
-          title: "MF Piano",
-          href: "https://mfpiano.org",
+          title: "Project",
+          href: "",
           external: true,
         },
         {
-          title: "Peresfer",
-          href: "https://peresfer.com",
+          title: "Services",
+          href: "",
           external: true,
         },
         {
-          title: "Relivator",
-          href: "https://relivator.bleverse.com",
+          title: "Demo",
+          href: "",
           external: true,
         },
       ],
@@ -248,23 +248,23 @@ export const siteConfig = {
       title: "Github",
       items: [
         {
-          title: "Relivator",
-          href: "https://github.com/blefnk/relivator",
+          title: "Open-source",
+          href: "https://github.com/HarryNguyen2662",
           external: true,
         },
         {
-          title: "Reliverse",
-          href: "https://github.com/blefnk/reliverse",
+          title: "Project",
+          href: "https://github.com/HarryNguyen2662",
           external: true,
         },
         {
-          title: "Blefnk",
-          href: "https://github.com/blefnk",
+          title: "Demo",
+          href: "https://github.com/HarryNguyen2662",
           external: true,
         },
         {
           title: "Utils",
-          href: "https://github.com/blefnk/utils",
+          href: "https://github.com/HarryNguyen2662",
           external: true,
         },
       ],

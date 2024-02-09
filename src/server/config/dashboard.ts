@@ -12,37 +12,37 @@ export const dashboardConfig: DashboardConfig = {
   sidebarNav: [
     {
       title: "Stores",
-      href: "/dashboard/stores",
+      href: "", //"/dashboard/stores",
       icon: "store",
       items: [],
     },
     {
       title: "Billing",
-      href: "/dashboard/billing",
+      href: "", //"/dashboard/billing",
       icon: "billing",
       items: [],
     },
     {
       title: "Account",
-      href: "/dashboard/account",
+      href: "", //"/dashboard/account",
       icon: "user",
       items: [],
     },
     {
       title: "Settings",
-      href: "/dashboard/settings",
+      href: "", //"/dashboard/settings",
       icon: "settings",
       items: [],
     },
     {
       title: "Purchases",
-      href: "/dashboard/purchases",
+      href: "", //"/dashboard/purchases",
       icon: "dollarSign",
       items: [],
     },
     {
       title: "Admin Page",
-      href: "/dashboard/admin",
+      href: "", //"/dashboard/admin",
       icon: "terminal",
       items: [],
     },

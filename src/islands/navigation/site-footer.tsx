@@ -96,7 +96,7 @@ export async function SiteFooter() {
                 © {new Date().getFullYear()}{" "}
                 <Link
                   target="_blank"
-                  href="https://github.com/blefnk/relivator"
+                  href="https://github.com/HarryNguyen2662"
                   className="hover:underline"
                 >
                   {siteConfig.company.name}

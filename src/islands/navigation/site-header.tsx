@@ -71,7 +71,7 @@ export async function SiteHeader({
         />
 
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <CartSheet />
+          {/*<CartSheet />
 
           <Combobox
             tSearchTitle={t("islands.search.title")}
@@ -80,12 +80,12 @@ export async function SiteHeader({
             tCmdLight={t("islands.command.light")}
             tCmdDark={t("islands.command.dark")}
             tCmdSystem={t("islands.command.system")}
-          />
+            />*/}
 
           {settings.themeToggleEnabled && <ThemesGeneralSwitcher />}
 
           {/* {env.DEV_DEMO_NOTES === "true" && ( */}
-          <div className="hidden sm:block">
+          {/*<div className="hidden sm:block">
             <ButtonLink
               size="icon"
               target="_blank"
@@ -100,9 +100,9 @@ export async function SiteHeader({
               variant="outline"
               href="https://discord.gg/TK2SpfXfTB"
             >
-              <DiscordLogoIcon className="h-4 w-4" />
+            <DiscordLogoIcon className="h-4 w-4" />
             </ButtonLink>
-          </div>
+            </div>*/}
           {/* )} */}
 
           {env.NEXT_PUBLIC_INTL_PROVIDER !== "disable" && (
@@ -112,7 +112,7 @@ export async function SiteHeader({
             />
           )}
 
-          {authProvider === "clerk" ?
+          {/*authProvider === "clerk" ?
             env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY && env.CLERK_SECRET_KEY ?
               <UserMenu />
             : <ButtonPlaceholder
@@ -132,7 +132,7 @@ export async function SiteHeader({
               auth_provider={authProvider}
               tNextAuthError={t("environments.auth-button-placeholder")}
             />
-          }
+          */}
         </div>
       </nav>
     </header>

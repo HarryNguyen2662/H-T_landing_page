@@ -3,9 +3,9 @@
   "version": "1.2.4",
   "private": true,
   "author": {
-    "name": "Nazarii Korniienko",
-    "email": "blefnk@gmail.com",
-    "url": "https://github.com/blefnk/relivator"
+    "name": "Harry Nguyen",
+    "email": "toantoan123toantoan@gmail.com",
+    "url": "https://github.com/HarryNguyen2662"
   },
   "scripts": {
     "appts": "run-s test format typecheck lint build",

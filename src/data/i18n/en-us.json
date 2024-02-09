@@ -176,7 +176,7 @@
     }
   },
   "landing": {
-    "about": "We aim to create the world's most feature-rich, global, and iconic Next.js starter. Explore the comprehensive list of features. Offering more than just code, it's a journey. It's stable and ready for production.",
+    "about": "At H&T AI TECH, we leverage cutting-edge AI techniques like object detection, video content analysis, image recognition, and predictive maintenance to develop innovative solutions that extract insights from visual data and keep critical systems running smoothly.",
     "btn1-products-now": "Products Now",
     "btn1-sell": "Sell",
     "btn2-download": "Download",
@@ -747,16 +747,16 @@
   },
   "faq": {
     "1": {
-      "summary": "How can I install everything and get started immediately?",
-      "details": "Please visit the README.md file in the Relivator GitHub repository, where you'll always find the most current information about the project along with easy installation instructions."
+      "summary": "Question 1",
+      "details": "Answer 1"
     },
     "2": {
-      "summary": "Why should I choose Relivator as my Next.js 14 starter?",
-      "details": "The answer is simple: to prevent you from hopping between different starters. In fact, you can stop searching now. With Relivator, you are presented with unlimited possibilities. You can create anything you desire; all the necessary tools are already prepared, just for you."
+      "summary": "Question 2",
+      "details": "Answer 2"
     },
     "3": {
-      "summary": "Is it possible to speed up the release of Relivator v2.0?",
-      "details": "Developing something as ambitious as Relivator obviously takes a lot of time, especially since the project is primarily developed by just one person. The development could be significantly accelerated by hiring additional developers. Therefore, I, @blefnk Nazarii Korniienko, would be immensely grateful to anyone who could donate to the project in any amount. Please refer to the repository page to see Patreon and other platforms as well. A big thank you to everyone in advance!"
+      "summary": "Question 3",
+      "details": "Answer 3"
     }
   },
   "demo": {

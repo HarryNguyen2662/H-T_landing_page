@@ -44,7 +44,7 @@ export default function Page() {
           &copy; 2024{" "}
           <Link
             className="font-medium underline underline-offset-4"
-            href="https://github.com/blefnk"
+            href="https://github.com/HarryNguyen2662"
             rel="noreferrer"
             target="_blank"
           >
@@ -52,7 +52,7 @@ export default function Page() {
           </Link>{" "}
           <Link
             className="font-medium text-zinc-500 underline underline-offset-4"
-            href="https://github.com/blefnk/relivator"
+            href="https://github.com/HarryNguyen2662"
             rel="noreferrer"
             target="_blank"
           >

@@ -22,7 +22,7 @@ export const sortOptions = [
 
 export const productCategories = [
   {
-    title: "furniture",
+    title: "Services",
     image: "/images/skateboard-one.webp",
     subcategories: [
       {
@@ -70,7 +70,7 @@ export const productCategories = [
     ],
   },
   {
-    title: "clothing",
+    title: "About Us",
     image: "/images/clothing-one.webp",
     subcategories: [
       {
@@ -101,7 +101,7 @@ export const productCategories = [
     ],
   },
   {
-    title: "tech",
+    title: "Media",
     image: "/images/shoe-one.webp",
     subcategories: [
       {
@@ -132,7 +132,7 @@ export const productCategories = [
     ],
   },
   {
-    title: "accessories",
+    title: "Contact Us",
     image: "/images/backpack-one.webp",
     subcategories: [
       {
