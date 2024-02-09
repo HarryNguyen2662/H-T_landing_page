@@ -15,7 +15,7 @@ const Companies = () => {
   const featuredCompanies = [facebook, airbnb, tinder, microsoft, hub];
   const renderCompanies = featuredCompanies.map((company, index) => (
     <div key={index}>
-      <Image className="" src={company} alt={"company.fileName"} key={index} />
+      <Image className="" src={company} alt="company.fileName" key={index} />
     </div>
   ));
 
